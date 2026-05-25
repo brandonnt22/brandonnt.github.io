@@ -21,4 +21,4 @@ Agregar enlace GitHub
 ## Sitio Publicado
 
 https://github.com/brandonnt22/brandonnt.github.io.git
-https://brandonnt.github.io/
+https://brandonnt22.github.io/brandonnt.github.io/
