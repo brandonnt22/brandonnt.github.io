@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Configuración de caracteres especiales -->
+    <meta charset="UTF-8">
+
+    <!-- Permite que la página sea responsiva en dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>Ahorro Inteligente con Fibonacci y Primos</title>
+
+    <!-- Vinculación con la hoja de estilos CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <!-- ===================================================== -->
+    <!-- SÍMBOLOS MATEMÁTICOS DECORATIVOS CON ANIMACIÓN        -->
+    <!-- ===================================================== -->
+    <!-- Estos elementos son únicamente visuales y sirven para
+         reforzar la temática matemática del proyecto -->
+    <div class="simbolo s1">π</div>
+    <div class="simbolo s2">∞</div>
+    <div class="simbolo s3">Σ</div>
+    <div class="simbolo s4">13</div>
+    <div class="simbolo s5">x²</div>
+    <div class="simbolo s6">√</div>
+
+    <!-- ===================================================== -->
+    <!-- ENCABEZADO PRINCIPAL                                 -->
+    <!-- ===================================================== -->
+    <header>
+
+        <!-- Título principal del proyecto -->
+        <h1>📐 Matemáticas que Resuelven Problemas</h1>
+
+        <!-- Subtítulo del proyecto -->
+        <p>
+            Ahorro Inteligente con Fibonacci y Números Primos
+        </p>
+
+        <!-- Nombre del estudiante -->
+        <p>
+            Por Brandon Nina Ticona
+        </p>
+
+    </header>
+
+    <!-- ===================================================== -->
+    <!-- CONTENIDO PRINCIPAL DE LA PÁGINA                     -->
+    <!-- ===================================================== -->
+    <main>
+
+        <!-- ================================================ -->
+        <!-- CONTEXTO DEL PROBLEMA                            -->
+        <!-- ================================================ -->
+        <section class="card">
+
+            <h2>📌 Contexto del Problema</h2>
+
+            <p>
+                Muchas personas desean ahorrar dinero cada mes,
+                pero les resulta difícil aumentar sus ahorros de forma constante.
+                Una alternativa interesante es utilizar la secuencia de Fibonacci,
+                donde cada ahorro mensual se obtiene sumando los dos anteriores.
+            </p>
+
+            <p>
+                Además, identificaremos qué cantidades corresponden a números primos,
+                los cuales poseen aplicaciones importantes en informática y seguridad.
+            </p>
+
+        </section>
+
+        <!-- ================================================ -->
+        <!-- EXPLICACIÓN DEL ALGORITMO                        -->
+        <!-- ================================================ -->
+        <section class="card">
+
+            <h2>🧠 ¿Cómo funciona el algoritmo?</h2>
+
+            <!-- Explicación de la serie de Fibonacci -->
+            <h3>Serie de Fibonacci</h3>
+
+            <p>
+                Cada término se obtiene sumando los dos anteriores:
+            </p>
+
+            <!-- Ejemplo visual de la secuencia -->
+            <p class="formula">
+                1, 1, 2, 3, 5, 8, 13, 21...
+            </p>
+
+            <!-- Explicación de los números primos -->
+            <h3>Números Primos</h3>
+
+            <p>
+                Un número primo solamente es divisible entre 1 y él mismo.
+            </p>
+
+            <p>
+                Ejemplos:
+                2, 3, 5, 7, 11, 13...
+            </p>
+
+        </section>
+
+        <!-- ================================================ -->
+        <!-- FORMULARIO DE ENTRADA DE DATOS                   -->
+        <!-- ================================================ -->
+        <section class="card">
+
+            <h2>💰 Simulador de Ahorro</h2>
+
+            <!-- Formulario donde el usuario ingresa la cantidad
+                 de meses para realizar la simulación -->
+            <form id="formulario">
+
+                <!-- Etiqueta asociada al campo de entrada -->
+                <label for="meses">
+                    Cantidad de meses:
+                </label>
+
+                <!-- Campo numérico para ingresar meses -->
+                <input
+                    type="number"
+                    id="meses"
+                    min="1"
+                    max="30"
+                    required>
+
+                <!-- Botón que ejecuta el cálculo mediante JavaScript -->
+                <button type="button" id="btnCalcular">
+                    Calcular Ahorro
+                </button>
+
+            </form>
+
+        </section>
+
+        <!-- ================================================ -->
+        <!-- SECCIÓN DE RESULTADOS                            -->
+        <!-- ================================================ -->
+        <section class="card">
+
+            <h2>📊 Resultados</h2>
+
+            <!-- Aquí JavaScript mostrará los resultados
+                 generados por el algoritmo -->
+            <div id="resultado">
+
+                Ingrese una cantidad de meses para comenzar.
+
+            </div>
+
+        </section>
+
+        <!-- ================================================ -->
+        <!-- CONCLUSIÓN DEL PROYECTO                          -->
+        <!-- ================================================ -->
+        <section class="card">
+
+            <h2>✅ Conclusión</h2>
+
+            <p>
+                Este proyecto demuestra cómo conceptos matemáticos
+                como la serie de Fibonacci y los números primos pueden
+                aplicarse para modelar situaciones reales, ayudando a
+                comprender patrones de crecimiento y análisis numérico.
+            </p>
+
+        </section>
+
+        <!-- ================================================ -->
+        <!-- ENLACES DEL PROYECTO                             -->
+        <!-- ================================================ -->
+        <section class="card">
+
+            <h2>🔗 Enlaces</h2>
+
+            <!-- Enlace al repositorio GitHub -->
+            <p>
+                Repositorio GitHub:
+                <a href="#" target="_blank">
+                    https://github.com/brandonnt22/brandonnt.github.io.git
+                </a>
+            </p>
+
+            <!-- Enlace al sitio web publicado -->
+            <p>
+                Página Publicada:
+                <a href="#" target="_blank">
+                    https://brandonnt.github.io/
+                </a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- ===================================================== -->
+    <!-- PIE DE PÁGINA                                        -->
+    <!-- ===================================================== -->
+    <footer>
+
+        <p>
+            Desarrollado para el Desafío Web:
+            Fibonacci y Números Primos
+        </p>
+
+    </footer>
+
+    <!-- Archivo JavaScript que contiene toda la lógica
+         del proyecto -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
